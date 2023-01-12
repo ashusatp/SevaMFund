@@ -1,0 +1,24 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 0 2rem;
+}
+.right{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    list-style: none;
+}
+.connect{
+    padding:5px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(18, 126, 214);
+    color: white;
+    cursor: pointer;
+}
+.right li a{
+    text-decoration: none;
+    color: inherit;
+}
